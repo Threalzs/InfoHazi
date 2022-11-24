@@ -1,0 +1,21 @@
+body>
+    <H1>összeadó program </H1>
+    <input type="number" onclick="a= Number(this.value) " min="1" max="900" value="20">
+    <input type="number" onclick="b= Number(this.value) " min="1" max="900" value="20">
+    <button onclick="alert(a+b)">Számol</button>
+    <div class="e8">Összegérték: </div>
+    <div class="e7">Szorzatérték: </div>
+</body>
+<script>
+    f = (a+b)
+        (a*b)
+</script>
+<style>
+    body {
+        text-align: center;
+        background-color: aqua
+    }
+    div {
+
+    }
+</style>
